@@ -14,4 +14,6 @@ id      int auto_increment primary key
 
 ,comments   text        
 
+,status CHAR(1) NOT NULL
+
 );
